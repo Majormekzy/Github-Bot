@@ -43,7 +43,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          PR_URL=${{ github.event.pull_request.html_url }}
+          COMMENT_URL="${PR_URL}/comments"
           curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
             -d '{"body": "Deployment successful: http://3.21.156.158:8080"}' \
-            ${{ github.event.pull_request.comments_url }}
+            $COMMENT_URL
 
