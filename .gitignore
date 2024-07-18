@@ -1,0 +1,94 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# dotenv environment variable file
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Private key
+*.pem
+
+# Docker specific
+docker-compose.override.yml
+.dockerignore
+.Dockerfile.swp
+Dockerfile.swp
+
+# Optional NPM cache directory
+.npm
+
+# Miscellaneous
+*.swp
+*.swo
+
+# VS Code settings directory
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Output from coverage tools
+coverage/
+
+# Build directories
+build/
+dist/
+
+# Probot logs and lock files
+tmp/
+.lock-wscript
+.lock-stderr.log
+.lock-stdout.log
+
+# JetBrains IDE files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# PyCharm
+*.idea
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/modules.xml
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/.name
+.idea/modules.xml
+.idea/artifacts/
+.idea/shelf/
+.idea/.name
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/jsLibraryMappings.xml
+.idea/.name
+
+# MacOS and Linux Swapfiles
+*.swp
+*.swo
+
+# Windows file
+Thumbs.db
+Desktop.ini
+
