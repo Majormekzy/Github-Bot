@@ -92,3 +92,4 @@ tmp/
 Thumbs.db
 Desktop.ini
 
+node_modules/
