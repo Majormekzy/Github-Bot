@@ -192,4 +192,4 @@ We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fil
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-This `README.md` file provides a comprehensive overview of the project, including setup instructions, environment variables, usage, and GitHub Actions workflow configuration. It follows best practices for documentation and should help users understand and use your project effectively..
+This `README.md` file provides a comprehensive overview of the project, including setup instructions, environment variables, usage, and GitHub Actions workflow configuration. It follows best practices for documentation and should help users understand and use your project effectively
