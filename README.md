@@ -1,4 +1,3 @@
-Certainly! Below is a sample `README.md` file that provides a detailed explanation of the entire deployment process for your GitHub Bot project. This README follows standardized practices and includes all necessary details.
 
 ```markdown
 # GitHub Bot for Automated Pull Request Deployment
